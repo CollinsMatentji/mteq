@@ -1,0 +1,190 @@
+/* 
+    Document   : style
+    Created on : Sep 16, 2012, 2:31:01 AM
+    Author     : m
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+body {
+  margin:0px; 
+  font: 12px Calibri;
+  color: #333333;
+  text-align: center;
+}
+p {
+      font-size: 12px;
+}
+b {
+    color: #666666;
+}
+label {
+    padding: 0px 15px 0px 0px;
+}
+a {
+    text-decoration: none;
+    font-size: 14px;
+    color: #2450FF;
+}
+td {
+    font-size: 14px;
+    font-family: calibri;
+}
+a img{
+    border:none;
+}
+.head a {
+    color: white;
+    font-size: 14px;
+}
+.cat_link {
+    padding-top: 5px;
+    font-weight: normal;
+}
+#f_link a {
+    font-size: 12px;
+}
+.item a{
+    font-size: 13px;
+}
+.t_card a {
+    font-size: 15px;
+    color: red;
+    font-weight: bolder;
+}
+a:hover {
+    text-decoration: underline;
+}
+.tbl_card {
+   margin: 125px 0px 0px 1045px;
+   font-size: 14px;
+   z-index: 1;
+   position: absolute;
+   padding-bottom: 100px;
+   vertical-align: top;
+}
+.t_card{
+   background:transparent url(../img/card.png) no-repeat top;
+   width: 50px;
+   height: 50px;
+   padding-right: 0px;
+   z-index: 2;
+}
+.head{
+   background:transparent url(../img/bg/head_bg.png) no-repeat top;
+   margin:0px 0px 0px 0px;
+   height: 50px;
+   text-align: center;
+}
+.sub_head{
+   background:transparent url(../img/bg/sub_head_bg.png) no-repeat top;
+   margin:0px 5px 0px 0px;
+   height: 50px;
+   color: #333333;
+}
+.hr {
+    background:transparent url(../img/bg/hr_bg.png) no-repeat;
+    height: 14px;
+    padding-bottom: 0px;
+}
+.item {
+    width: 180px;
+    height: 250px;
+    background:transparent url(../img/bg/item_bg.png);
+    font-size: 13px;
+}
+.mitem {
+    width: 290px;
+    height: 310px;
+    background:transparent url(../img/bg/mitem_bg.png);
+    font-size: 13px;
+}
+.item img {
+    margin: 10px 0px 0px 0px;
+}
+.mitem img {
+    margin: 10px 0px 0px 20px;
+}
+.thumbs {
+    z-index: 2;
+}
+.b_thumbs img {
+        border: solid 1px #ccc;
+        width: 75px;
+        height: 75px;
+        padding: 0px;
+        z-index: 2;
+        margin: 0px 0px 0px 0px;
+}
+.thumbs img {
+        border: solid 1px #ccc;
+        width: 120px;
+        height: 140px;
+        padding: 0px;
+        z-index: 2;
+        margin: 0px 0px 0px 0px;
+}
+.thumbs img:hover {
+        border-color: #FF9900;
+        z-index: 2;
+}
+#i_det {
+    font-weight: normal;
+}
+#on_shelf{
+    color: green;
+    font-weight: normal;
+    font-size: 12px;
+}
+#off_shelf{
+    color: red;
+    font-weight: normal;
+    font-size: 12px;
+}
+#err, #ntc {
+    color: red;
+    font-weight: normal;
+    font-size: 12px;
+}
+#largeImg {
+        border: solid 1px #ccc;
+        width: 280px;
+        height: 300px;
+        z-index: 2;
+}
+#sub_head {
+    color: #B73734;
+}
+#cat_head{
+    color: #B73734;
+    font-size: 18px;
+}
+#cat{
+    width: 900px;
+}
+#footer {
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+}
+#tbl_register b, #tbl_login b{
+    color: red;
+    font-weight: normal;
+    font-size: 14px;
+}
+#f_link{
+    margin: 0px 0px 0px 515px;
+    font-weight: normal;
+    font-size: 12px;
+    color: gray;
+}
+
+
